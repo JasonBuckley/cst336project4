@@ -1,0 +1,40 @@
+<% include partials/header.ejs %>
+
+    <MS-DOS-Content class="flex-container">
+        
+        <section>
+            <h2><strong>MS-DOS</strong></h2>
+        </section>
+
+        <script>
+        var a = "";
+        console.log(a);
+        </script>
+        
+        
+        <img id="dosLogoImage" src="img/ms-dosLogo.jpg" alt="MS-DOS Logo" />
+
+        <div id="DOS-Memory">
+            <p>MS-DOS 6.22 Memory Limits</p>
+            <ul>
+                <li>ROM: <%= rom %>GB</li>
+                <li>RAM: <%= ram %>MB</li>
+                <li>GRAM: <%= gram %></li>
+            </ul>
+        </div>
+
+        <div id="aboutDosContainer" class="flex-container">
+            <p>Microsofts Disk Operating System, MS-DOS for short is a text based operating system that was first seen in IBM computers in 1982. However, Microsoft did not make the operating system from the ground up, but rather bought the rights of DOS
+                from Quick and Dirty Operating Systems, and tweaked it for IBM's needs. It was the dominant operating system of the 1980s, and mid 1990s for personal computers until it was displaced by operating systems using graphical user interfaces
+                (gui). MS-DOS saw its final release in September 2000, and is still avaiable to the public as free software. Some embedded systems still use MS-DOS for its simple architecture, and low processing needs. In addition, Windows continues to
+                have a MS-DOS like look to there command line interfaces.</p>
+
+            <p>Reference: <a href="https://microsoft.fandom.com/wiki/MS-DOS">MS-DOS</a></p>
+
+            <!-- https://microsoft.fandom.com/wiki/MS-DOS -->
+        </div>
+
+
+    </MS-DOS-Content>
+
+    <% include partials/footer.ejs %>

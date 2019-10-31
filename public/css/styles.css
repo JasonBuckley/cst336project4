@@ -1,0 +1,208 @@
+html {
+    background-color: #196ddb;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    padding: 1%;
+    text-align: left;
+}
+
+section{
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    top: -4%;
+}
+
+h2{
+    font-size: 1em;    
+}
+#page3{
+    top: 4%;
+}
+
+#page4{
+    top:-4%;
+}
+
+/*navigation and header styles*/
+
+hr {
+    width: 50%;
+}
+
+h1 {
+    padding: 1%;
+    font-size: 3em;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 14%;
+    color: white;
+    position: absolute;
+    flex-direction: column;
+}
+
+nav a {
+    background-color: gray;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    border: 5px white solid;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background-color: lightgray;
+    color: white;
+}
+
+/*main page styles*/
+
+content-main {
+    font-size: 1.0em;
+    position: relative;
+    left: 7.5%;
+    width: 85%;
+    height: 80%;
+}
+
+#picturesHolder {
+    display: flex;
+    background-color: gray;
+    height: 35%;
+    width: 58%;
+    position: relative;
+    top: 0%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPageImage {
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px lightgray solid;
+    padding: 3%;
+}
+
+#aboutContainer {
+    position: relative;
+    color: white;
+    top: 0%;
+    height: 40%;
+    width: 80%;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*styles used in MS-DOS page*/
+
+#dosLogoImage {
+    position: relative;
+    left: -25%;
+    top: 34%;
+    border: 4px gray solid;
+}
+
+#DOS-Memory,
+#aboutDosContainer {
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 4px gray solid;
+}
+
+#DOS-Memory {
+    width: 25%;
+    height: 25%;
+    top: 39%;
+    left: -25%;
+}
+
+#aboutDosContainer {
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    bottom: 30%;
+}
+
+MS-DOS-Content {
+    font-size: 1.2em;
+    float: none;
+    position: relative;
+    width: 85%;
+    height: 75%;
+    top: 0%;
+    left: 7%;
+    flex-direction: row;
+}
+
+/*styles used in Windows 10 page*/
+
+content-windows10 {
+    color: white;
+    font-size: 1.0em;
+    position: relative;
+    top: -5%;
+    left: 15%;
+    width: 75%;
+    height: 70%;
+}
+
+#windows10Info{
+    position: relative;
+    top: 15%;
+}
+
+#windows10Logo {
+    justify-content: center;
+    background-color: white;
+    border: 4px white solid;
+}
+
+/*styles used in Internet Explorer page*/
+
+content-ie {
+    color: white;
+    font-size: 1.0em;
+    position: relative;
+    left: 15%;
+    width: 75%;
+    height: 75%;
+}
+
+#internetExplorerInfo{
+    position: relative;
+    top: 5%;
+}
+
+#ieLogo{
+    position: relative;
+    left: 20%;
+}
+
+/*styles used in footer*/
+
+footer {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+
+}
